@@ -1,3 +1,13 @@
+安装依赖失败
+npm install
+
+建议不要用 cnpm 安装 会有各种诡异的bug 可以通过如下操作解决 npm 下载速度慢的问题
+
+npm install --registry=https://registry.npm.taobao.org
+
+本地开发 启动项目
+npm run dev
+
 # mall-admin-web
 <p>
   <a href="#公众号"><img src="http://macro-oss.oss-cn-shenzhen.aliyuncs.com/mall/badge/%E5%85%AC%E4%BC%97%E5%8F%B7-macrozheng-blue.svg" alt="公众号"></a>
@@ -17,7 +27,7 @@
 
 ### 项目演示
 
-项目在线演示地址：[http://www.macrozheng.com/admin/](http://www.macrozheng.com/admin/)  
+项目在线演示地址：[http://www.macrozheng.com/admin/](http://www.macrozheng.com/admin/)
 
 ![后台管理系统功能演示](http://img.macrozheng.com/mall/project/mall_admin_show.png)
 
